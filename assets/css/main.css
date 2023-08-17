@@ -6,6 +6,69 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Css tin tức và sự kiện */
+.sukien {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zoomable-img {
+  transition: transform 0.3s;
+}
+
+.zoomable-img:hover {
+  transform: scale(1.1);
+}
+.bottom-border {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.owl-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.event-link {
+  text-decoration: none;
+}
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.card-body {
+  height: 200px;
+}
+.event-link:hover .card-title {
+  color: red;
+}
+
+.event-card {
+  /* border: 1px solid #ccc;  */
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 550px;
+  height: auto;
+  max-width: 400px; /* Điều chỉnh kích thước card theo mong muốn */
+  margin: 0 auto; /* Canh giữa card */
+}
+
+.event-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.item {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+.item img {
+  width: 100%;
+}
 
 html,
 body,
@@ -3147,6 +3210,7 @@ body.homepage.is-preload #header:after {
   min-width: 12em;
   margin-top: -1em;
   list-style: none;
+  width: 450px;
 }
 
 .dropotron li {
