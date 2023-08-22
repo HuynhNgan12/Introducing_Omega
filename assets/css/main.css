@@ -6,6 +6,123 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.tintucvasukien {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 450px;
+  height: 220px;
+  color: black;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Khách hàng & Hành động*/
+
+.special {
+  color: black;
+  font-size: 20px;
+}
+.hanhdong {
+  margin-top: 40px;
+}
+.hanhdong span em {
+  font-weight: bold;
+  line-height: 50px;
+}
+.hanhdong p {
+  margin-bottom: 8px;
+}
+
+.quote p em {
+  padding-top: 40px;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.quote p em::before {
+  content: "";
+  display: inline-block;
+  width: 45px;
+  height: 30px;
+  position: absolute;
+  top: 590px;
+  left: 85px;
+  background: url(/images/quote_1.png) 0 0/100% no-repeat;
+}
+.quote p em::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  bottom: 60px;
+  right: 85px;
+  background: url(/images/quote_2.png) 0 0/100% no-repeat;
+}
+/* Nhân sự */
+.nhansu {
+  font-size: 20px;
+}
+
+/* Giới thiệu */
+.card-link:hover {
+  padding-right: 20px; /* Tùy chỉnh theo ý muốn */
+}
+
+.card-link:hover svg {
+  transform: translateX(5px); /* Tùy chỉnh theo ý muốn */
+}
+.cardGT {
+  width: 22rem;
+  height: 28rem;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 40px;
+  position: relative;
+}
+.cardGT::after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  margin-left: -43px;
+  width: 5px;
+  height: 13%;
+  background-color: #006400;
+  z-index: 1;
+}
+.brLeft {
+  position: relative;
+  overflow: hidden;
+}
+.card-text {
+  font-size: 18px;
+  margin-top: 20px;
+  position: absolute;
+  padding-right: 20px;
+  height: 40%;
+}
+
+.card-bodyGT {
+  margin-left: -20px;
+  margin-right: 20px;
+}
+.card-titleGT {
+  font-size: 28px;
+  font-weight: bold;
+  color: #006400;
+}
+.card-link {
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: none;
+  text-decoration: none;
+  margin: 0px 0px 15px 20px;
+}
+
 /* Css tin tức và sự kiện */
 .sukien {
   display: flex;
@@ -42,7 +159,7 @@
   height: 200px;
 }
 .event-link:hover .card-title {
-  color: red;
+  color: #66cd00;
 }
 
 .event-card {
@@ -659,7 +776,7 @@ a {
 }
 
 a:hover {
-  color: #e44c65 !important;
+  color: #66cd00 !important;
   border-bottom-color: transparent;
 }
 
@@ -2602,8 +2719,8 @@ header {
 header > p {
   display: block;
   font-size: 1.5em;
-  margin: 1em 0 2em 0;
-  line-height: 1.5em;
+  /* margin: 1em 0 2em 0;
+  line-height: 1.5em; */
   text-align: inherit;
 }
 
@@ -2633,7 +2750,7 @@ footer {
 .image.featured {
   display: block;
   width: 100%;
-  margin: 0 0 4em 0;
+  margin: 0 0 1em 0;
 }
 
 .image.left {
@@ -3005,7 +3122,7 @@ header .icon.circled {
 /* Wrapper */
 
 .wrapper {
-  background: #fff;
+  /* background: #fff; */
   margin: 0 0 2em 0;
   padding: 6em 0 6em 0;
 }
@@ -3018,7 +3135,7 @@ header .icon.circled {
 
 #header {
   position: relative;
-  background-image: url("../../images/header.jpg");
+  background-image: url("../../images/2.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
